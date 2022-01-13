@@ -1,0 +1,5 @@
+heroku login
+heroku git:clone -a express-test-apply
+git add .
+git commit -am "first commit"
+git push heroku master
